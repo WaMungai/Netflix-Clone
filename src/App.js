@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import About from './components/About/About';
 import Users from './components/Users/Users';
 import Home from './components/Home/Home';
-import LoginScreen from './components/LoginScreen/LoginScreen';
+import LoginScreen from './components/Login/LoginScreen';
 
 function App() {
   const user = null;

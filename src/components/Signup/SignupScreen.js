@@ -1,8 +1,9 @@
 import React from 'react'
+import './Signup.css'
 
 function Signup() {
   return (
-    <div>Signup</div>
+    <div className="signUpScreen">Signup</div>
   )
 }
 

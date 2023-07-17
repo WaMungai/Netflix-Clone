@@ -1,21 +1,28 @@
 import React from 'react';
 import './App.css';
 import HomeScreen from './components/HomeScreen/HomeScreen';
-import {  Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import About from './components/About/About';
 import Users from './components/Users/Users';
 import Home from './components/Home/Home';
+import LoginScreen from './components/LoginScreen/LoginScreen';
 
 function App() {
+  const user = null;
   return (
     <div className="app">
-      <HomeScreen />
-      <div>
+      {!user ?(
+        <LoginScreen />
+      ):(
+        
         <Routes>
-          <Route path="/about" element={About} />
-          <Route path="/users" element={Users} />
-          <Route path="/" element={Home} />
-        </Routes>
+        <Route path="/about" element={About} />
+        <Route path="/users" element={Users} />
+        <Route path="/" element={HomeScreen} />
+      </Routes>
+      )}
+      <div>
+       
       </div>
     </div>
   );

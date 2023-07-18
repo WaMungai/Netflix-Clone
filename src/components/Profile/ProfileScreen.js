@@ -1,8 +1,12 @@
 import React from 'react'
 import './ProfileScreen.css'
 import Nav from '../Nav/Nav'
+import { useSelector } from 'react-redux'
+import { selectUser } from '../../features/user/userSlice'
+import { auth } from '../../firebase'
 
 function ProfileScreen() {
+    const user = useSelector(selectUser);
   return (
     <div className="profileScreen">
         <Nav />
@@ -13,6 +17,17 @@ function ProfileScreen() {
                 alt=""
                 src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png?20201013161117"
                 />
+                <div className="profileScreen__details">
+                    <h2>{user.email}</h2>
+                    <div className="profileScreen__plans">
+                        <h3>Plans</h3>
+                    
+                        <button
+                        onClick={() => auth.signOut()}
+                        className="profileScreen__signOut"
+                        >Sign out</button>
+                    </div>
+                </div>
             </div>
         </div>
         </div>

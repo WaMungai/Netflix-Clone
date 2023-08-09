@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WaMungai/Netflix-Clone/static/css/main.2fd81dcf.css",
+    "main.js": "/WaMungai/Netflix-Clone/static/js/main.f820efd4.js",
+    "static/js/787.440c4889.chunk.js": "/WaMungai/Netflix-Clone/static/js/787.440c4889.chunk.js",
+    "index.html": "/WaMungai/Netflix-Clone/index.html",
+    "main.2fd81dcf.css.map": "/WaMungai/Netflix-Clone/static/css/main.2fd81dcf.css.map",
+    "main.f820efd4.js.map": "/WaMungai/Netflix-Clone/static/js/main.f820efd4.js.map",
+    "787.440c4889.chunk.js.map": "/WaMungai/Netflix-Clone/static/js/787.440c4889.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fd81dcf.css",
+    "static/js/main.f820efd4.js"
+  ]
+}

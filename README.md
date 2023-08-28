@@ -1,7 +1,6 @@
 #NETFLIX CLONE 
 
-![image](https://github.com/WaMungai/Netflix-Clone/assets/55139857/81f88845-1f7f-4b06-a8d1-56226fd90530)
-
+![image](https://github.com/WaMungai/Netflix-Clone/assets/55139857/64310b52-ec13-4525-b57d-cace550b022a)
 
 # Getting Started with Create React App and Redux
 
